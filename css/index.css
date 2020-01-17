@@ -92,10 +92,28 @@ div.jumb{
     padding: 20px 0px;
 }
 
+.about{
+    padding: 0px 20px 20px 20px;
+    border-bottom: dashed black 1px;
+}
+
+.middle-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.titles{
+    width: 50%;
+    margin: 30px 0px;
+    line-height: 1.5;
+    border-bottom: dashed black 1px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
 
 .top-content {
     display: flex;
