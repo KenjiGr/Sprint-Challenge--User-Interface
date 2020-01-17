@@ -62,10 +62,29 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+.head-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container a{
+    text-decoration: none;
+    padding: 45px;
+    color: black;
+}
+.nav-container a:hover{
+    color: grey;
+}
+div.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+}
 p {
     line-height: 1.4;
 }
-
+.logo{
+    height: 40px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
