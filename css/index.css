@@ -146,6 +146,17 @@ div.jumb{
 div.work{
     padding: 10px 20px 30px 20px;
 }
+
+.jumbo-con{
+    width: 800px;
+}
+
+.contact{
+    padding: 30px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
