@@ -85,6 +85,12 @@ p {
 .logo{
     height: 40px;
 }
+
+div.jumb{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -130,7 +136,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+#teal{
+    background-color: teal;
+}
+#gold{
+    background-color: gold;
+}
+#cadetblue{
+    background-color: cadetblue;
+}
+#coral{
+    background-color: coral;
+}
+#crimson{
+    background-color: crimson;
+}
+#forestgreen{
+    background-color: forestgreen;
+}
+#darkorchid{
+    background-color: darkorchid;
+}
+#hotpink{
+    background-color: hotpink;
+}
+#indigo{
+    background-color: indigo;
+}
+#dodgerblue{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
