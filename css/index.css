@@ -70,10 +70,12 @@ h1, h2, h3, h4, h5 {
 .nav-container a{
     text-decoration: none;
     padding: 45px;
+    transition: all 0.5s ease;
     color: black;
 }
 .nav-container a:hover{
     color: grey;
+    animation: Highlight 1.5s;
 }
 div.nav-container{
     display: flex;
@@ -124,6 +126,23 @@ div.jumb{
     transition: all 0.5s ease;
     border-radius: 8px;
 }
+
+.button:hover{
+    background-color: grey;
+    animation: Highlight 1.5s;
+}
+
+@keyframes Highlight{
+    0%{
+        transform: scale(1);
+}
+    80%{
+        transform: scale(1.1)
+}
+    100%{
+        transform: scale(1);
+    }
+}
 div.work{
     padding: 10px 20px 30px 20px;
 }
@@ -166,6 +185,9 @@ div.work{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.box:hover{
+    animation: Highlight 0.5s;
 }
 #teal{
     background-color: teal;
