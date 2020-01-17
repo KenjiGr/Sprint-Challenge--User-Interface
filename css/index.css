@@ -114,7 +114,19 @@ div.jumb{
     margin: 0 auto;
 }
 
-
+.button {
+    border: 2px solid black;
+    width: 110px;
+    text-align: center;
+    height: 35px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 8px;
+}
+div.work{
+    padding: 10px 20px 30px 20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
