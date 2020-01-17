@@ -99,6 +99,12 @@ div.jumb{
     border-bottom: dashed black 1px;
 }
 
+.wrapper{
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: gray;
+    
+}
 .middle-container{
     display: flex;
     flex-wrap: wrap;
