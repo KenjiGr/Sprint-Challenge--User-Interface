@@ -103,7 +103,28 @@ div.jumb{
     max-width: 700px;
     margin: 50px auto;
     background-color: gray;
-    
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.address{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: lightgray;
+    margin-bottom: 50px;
+}
+
+.inner-address{
+    font-size: 12px;
 }
 .middle-container{
     display: flex;
